@@ -31,7 +31,7 @@ body {
 }
 
 .nav-top {
-  padding-bottom: 27px;
+  padding: 0 0 0 27px;
   margin: 30px;
   font-size: 13px;
 }
@@ -39,7 +39,7 @@ body {
 .nav-bottom {
   border-top: 1px solid #e5e4e4;
   height: 40px;
-  padding-bottom: 0 0 0 27px;
+  padding: 0 0 0 27px;
 }
 
 .logo {
@@ -79,4 +79,8 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
+}
+
+footer p {
+  padding: 0 8px;
 }
