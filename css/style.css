@@ -24,6 +24,12 @@ body {
   text-decoration: underline;
 }
 
+.nav-core ul li a:link,
+.nav-core ul li a:visited,
+.nav-core ul li a:active {
+  color: #222;
+}
+
 .nav-top {
   padding-bottom: 27px;
   margin: 30px;
@@ -63,6 +69,7 @@ form input[type='submit'] {
   margin: 11px 4px;
   padding: 0px 16px;
   border: 1px solid #f2f2f2;
+  border-radius: 4px;
 }
 
 footer {
